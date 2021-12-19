@@ -1,7 +1,13 @@
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return <div>   
+      <Component {...pageProps} />
+      <footer> 
+          <p>@Nandakumar</p>
+      </footer>
+    </div>;
+  
 }
 
 export default MyApp
